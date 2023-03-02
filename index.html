@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osobní stránka / Long</title>
+
+  <!--Ikonky-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--JS-->
+  <link rel="stylesheet" href="main.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+  <!--Hlavička-->
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        
+          <!--Logo-->
+          <a href="index.html" class="logo"><img src="assets/img/logo.svg" alt="Logo"></a>
+
+          <!--Navigace-->
+          <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list_menu">
+              <li class="nav_item_menu"><a href="#about" class="nav_link_menu">O mně</a></li>
+
+              <li class="nav_item_menu"><a href="#hobbies" class="nav_link_menu">Zájmy</a></li>
+
+              <li class="nav_item_menu"><a href="#skills" class="nav_link_menu">Dovednosti</a></li>
+
+              <li class="nav_item_menu"><a href="#qualification" class="nav_link_menu">Kvalifikace</a></li>
+
+              <li class="nav_item_menu"><a href="#projects" class="nav_link_menu">Projekty</a></li>
+
+              <li class="nav_item_menu"><a href="#contact" class="nav_link_menu">Kontakt</a></li>
+            </ul>
+          </div>
+
+          <!--Socialni site-->
+          <div class="nav_socials">
+            <ul class="nav_list_socials">
+                <li class="nav_item_socials"><a href="https://discord.gg/NRPGRNR2" class="nav_link_socials" target="_blank"><i class="bi bi-discord"></i></a></li>
+
+                <li class="nav_item_socials"><a href="https://github.com/longthekong" class="nav_link_socials" target="_blank"><i class="bi bi-github"></i></a></li>
+
+                <li class="nav_item_socials"><a href="https://twitter.com/LongNgu21294838?t=j7kk9tvmRIZpRziqDt6XMg&s=33" class="nav_link_socials" target="_blank"><i class="bi bi-twitter"></i></a></li>
+
+                <li class="nav_item_socials"><a href="https://www.instagram.com/nguyen_long010/" class="nav_link_socials" target="_blank"><i class="bi bi-instagram"></i></a></li>
+              </ul>
+          </div>
+
+          <!--Ikonka pro menu-->
+          <div class="nav_toggle">
+            <i id="nav-toggle" class="ri-menu-2-line"></i>
+          </div>
+
+      </nav>
+    </div>
+  </header>
+
+<!--Obsah-->
+  <main class="main">
+
+    <!--Hero sekce-->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero_content">
+
+          <!--hero text-->
+          <div class="hero_text">
+            <h4>Vítejte na mé osobní stránce. Jmenuji se</h4>
+
+            <h2 class="hero_name">Nguyen Thanh Long</h2>
+
+            <h5>"Zdokonalujte se se mnou na mé cestě k úspěchu."</h5>
+          </div>
+
+          <!--sipka dolu-->
+          <div class="arrow">
+            <a data-scroll href="#about">
+              <div class="arrow_down"></div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <!--O mne-->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">O mně</h4>
+
+          <span class="section_subtitle">Kdo jsem.</span>
+        </div>
+
+        <!--o mne text-->
+        <div class="d-flex about_wrapper">
+          <div class="about_content">
+              <h4 class="about_title">Jsem student GJVJ</h4>
+
+              <p class="about_description">Mé jméno je Long. Zajímám se o vědu, techniku a digitální technologie a rád zkouším nové věci. Chci pracovat v oblasti, která mi umožní stále objevovat nové věci a mám vášeň pro cestování a poznávání nových kultur. Mým cílem je růst jako osoba a připravit se na budoucí úspěchy v jakékoli oblasti, kterou si vyberu.</p>
+          </div>
+
+          <!--O mne foto karticky-->
+          <div class="about_wrapper_cards swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="assets/img/photomain.png" alt="about1" class="about_img"></div>
+
+              <div class="swiper-slide"><img src="assets/img/photo1.jpg" alt="about1" class="about_img"></div>
+
+              <div class="swiper-slide"><img src="assets/img/photo2.jpg" alt="about1" class="about_img"></div>
+
+              <div class="swiper-slide"><img src="assets/img/photo3.jpg" alt="about1" class="about_img"></div>
+
+              <div class="swiper-slide"><img src="assets/img/photo4.jpeg" alt="about1" class="about_img"></div>
+
+              <div class="swiper-slide"><img src="assets/img/photo5.jpg" alt="about1" class="about_img"></div>
+
+            </div>
+
+            <div class="swiper-pagination1"></div>
+
+          </div>
+      </div>
+    </section>
+
+    <!--zajmy-->
+    <section id="hobbies" class="section hobbies">
+      <div class="container">
+          <div class="section_header">
+              <h4 class="section_title">Moje zájmy</h4>
+              <span class="section_subtitle">Co rád dělám.</span>
+          </div>
+
+          <!--zajmy slajd-->
+          <div class="hobbies_wrapper swiper">
+            <div class="swiper-wrapper">
+
+              <div class="hobbies_card swiper-slide">
+                  <div class="hobbies_div_icon">
+                    <i class="bi bi-controller hobbies_icon"></i>
+                  </div>
+
+                  <div class="hobbies_content">
+                    <p class="hobbies_description">"Miluji hry, protože mi umožňují uniknout z reality a prožít zcela nová dobrodružství. Hry jsou pro mě skvělým způsobem, jak si odpočinout od každodenního stresu a zapomenout na starosti."</p>
+
+                    <h5 class="hobbies_name">Počítačové hry</h5>
+
+                    <span class="hobbies_occupation">League of Legends, CS:GO, Valorant, Minecraft, Genshin Impact</span>
+                  </div>
+              </div>
+
+              <div class="hobbies_card swiper-slide">
+                <div class="hobbies_div_icon">
+                  <i class="bi bi-pc-display-horizontal hobbies_icon"></i>
+                </div>
+
+                <div class="hobbies_content">
+                  <p class="hobbies_description">"Programování je pro mě fascinující oblast. Je to jako rozluštit hádanku a vytvořit něco z ničeho. Je to také nástroj, jak řešit problémy a usnadnit si každodenní život. Navíc mě učí logickému myšlení a zlepšuje mou schopnost řešit složité úkoly."</p>
+
+                  <h5 class="hobbies_name">Programování</h5>
+                  
+                  <span class="hobbies_occupation">Python, JavaScript, PHP</span>
+                </div>
+              </div>
+
+              <div class="hobbies_card swiper-slide">
+
+                <div class="hobbies_div_icon">
+                  <i class="bi bi-boombox hobbies_icon"></i>
+                </div>
+
+                <div class="hobbies_content">
+                  <p class="hobbies_description">"Hudba pro mě znamená mnohem víc než jen zvuky. Je to prostředek, jak vyjádřit emoce a vytvořit náladu. Různé žánry hudby mi umožňují naladit se na různé vlny a najít si tu svoji oblíbenou. Hudba mi pomáhá relaxovat, inspirovat se a cítit se šťastně."</p>
+
+                  <h5 class="hobbies_name">Hudba</h5>
+
+                  <span class="hobbies_occupation">R&B, jazz, rock, pop, k-pop</span>
+                </div>
+              </div>
+
+              <div class="hobbies_card swiper-slide">
+                <div class="hobbies_div_icon">
+                  <i class="bi bi-book-half hobbies_icon"></i>
+                </div>
+
+                <div class="hobbies_content">
+                  <p class="hobbies_description">"Miluji čtení komiksů, protože mi to umožňuje prožít příběhy svých oblíbených hrdinů. Grafický styl a dialogy mi umožňují vstoupit do světa komiksu a prožít tam dobrodružství a napínavé momenty. Čtení komiksů mi také pomáhá rozvíjet svou představivost a kreativitu a navíc se mi prostřednictvím komiksových postav podařilo najít spoustu inspirace do života."</p>
+
+                  <h5 class="hobbies_name">Čtení komiksů</h5>
+
+                  <span class="hobbies_occupation">Superhrdinské, webové komiksy, manga, manhwa</span>
+                </div>
+              </div>
+
+              <div class="hobbies_card swiper-slide">
+                <div class="hobbies_div_icon">
+                  <i class="bi bi-heart-pulse hobbies_icon"></i>
+                </div>
+
+                <div class="hobbies_content">
+                  <p class="hobbies_description">"Kalistenika je pro mě úžasnou formou cvičení, protože můžu cvičit kdykoliv a kdekoliv. Cvičení s vlastní vahou mě posiluje a zlepšuje mou flexibilitu a koordinaci. Navíc mi to pomáhá udržovat se v kondici a zlepšovat své zdraví."</p>
+
+                  <h5 class="hobbies_name">Kalistenika</h5>
+
+                  <span class="hobbies_occupation">Kliky, shyby, dřepy, výpady, dipy, prkno</span>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="arrows">
+              <i class="bi bi-arrow-left-circle-fill" id="prev"></i>
+
+              <i class="bi bi-arrow-right-circle-fill" id="next"></i>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+          </div>
+      </div>
+    </section>
+
+    <!--Dovednosti-->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">Moje dovednosti</h4>
+
+          <span class="section_subtitle">Co všechno dokážu.</span>
+        </div>
+
+        <!--dovednosti karticky-->
+        <div class="d-flex skills_wrapper">
+          <div class="skills_card">
+              <div class="skills_icon">
+                  <i class="ri-layout-4-fill"></i>
+              </div>
+
+              <h5 class="skills_title">Grafický<br>Design</h5>
+              
+              <p  class="skills_p">Figma, Paint.Net, Sketch a Adobe Illustrator</p>
+          </div>
+
+          <div class="skills_card">
+              <div class="skills_icon">
+                  <i class="ri-code-s-slash-line"></i>
+              </div>
+
+              <h5 class="skills_title">Vývoj<br>webových stránek</h5>
+
+              <p class="skills_p">HTML, CSS, JavaScript a PHP</p>
+          </div>
+
+          <div class="skills_card">
+              <div class="skills_icon">
+                  <i class="ri-pen-nib-fill"></i>
+              </div>
+
+              <h5 class="skills_title">Vývoj<br>Videoher</h5>
+
+              <p class="skills_p">Pygame a Unity</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--Kvalifikace-->
+    <section id="qualification" class="section qualification">
+        <div class="container">
+            <div class="section_header">
+                <h4 class="section_title">Kvalifikace</h4>
+
+                <span class="section_subtitle">Zkušenosti a vzdělání.</span>
+            </div>
+
+            <!--Pracovni zkusenosti-->
+            <div class="qualification_wrapper">
+                <h5 class="qualification_name">
+                    <i class="bi bi-briefcase-fill"></i>
+                    Pracovní zkušenosti
+                </h5>
+
+                <div class="d-flex qualification_content">
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Zatím žádné</h3>
+
+                        <p class="qualification_description">Nemám žádnou pracovní zkušenost, protože jsem se věnoval studiu a rozvoji svých schopností. Teď jsem připravený a odhodlaný najít si vhodnou pracovní pozici, aby se mi podařilo uplatnit své znalosti a přispět k rozvoji společnosti.</p>
+
+                        <span class="qualification_date">2003 - současnost</span>
+                    </div>
+
+                </div>
+            </div>
+            <!--Vzdelani-->
+            <div class="qualification_wrapper">
+                <h5 class="qualification_name">
+                    <i class="bi bi-building-fill-add"></i>
+                    Vzdělání
+                </h5>
+
+                <div class="d-flex qualification_content">
+
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">ZŠ a ZUŠ Bezdrevská 3</h3>
+
+                        <span class="qualification_date">2010 - 2014</span>
+                    </div>
+
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Základní škola Pohůrecká 16</h3>
+
+                        <span class="qualification_date">2014 - 2019</span>
+                    </div>
+
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Gymnázium J. V. Jirsíka</h3>
+
+                        <span class="qualification_date">2019 - 2023</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projekty-->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">Moje projekty</h4>
+          <span class="section_subtitle">Co všechno jsem vytvořil.</span>
+        </div>
+
+        <!--Filtr-->
+        <div class="projects_wrapper">
+          <div class="projects_nav">
+            <span class="projects_filter filter_text">Vybrané filtrování:</span>
+            <span class="projects_nav_item" data-filter="all">Vše /</span>
+            <span class="projects_nav_item" data-filter=".web">Web /</span>
+            <span class="projects_nav_item" data-filter=".game">Videohry /</span>
+            <span class="projects_nav_item" data-filter=".s_project">Jiné</span>
+          </div>
+
+              <!--Karticky s projekty-->
+          <div class="d-flex projects_container">
+            <div class="projects_card mix web">
+              <img src="assets/img/portfolio.jpg" alt="p1" class="projects_card_img">
+
+              <div class="projects_card_text mix web">
+                <span class="projects_card_category">Vývoj webových stránek</span>
+
+                <h5 class="projects_card_title">Portfolio stránka</h5>
+
+                <a href="https://github.com/longthekong/long_page" target="_blank" class="projects_card_button">View Details</a>
+              </div>
+            </div>
+
+            <div class="projects_card mix game">
+              <img src="assets/img/ping pong.jpg" alt="p1" class="projects_card_img">
+
+              <div class="projects_card_text">
+                <span class="projects_card_category">Vývoj videoher</span>
+
+                <h5 class="projects_card_title">Ping Pong</h5>
+
+                <a href="https://github.com/longthekong/ping-pong" target="_blank" class="projects_card_button">Zjistit více</a>
+              </div>
+            </div>
+
+            <div class="projects_card mix web">
+              <img src="assets/img/avengers.jpg" alt="p1" class="projects_card_img">
+
+              <div class="projects_card_text">
+                <span class="projects_card_category">Vývoj webových stránek</span
+                  >
+                <h5 class="projects_card_title">Marvel stránka</h5>
+ 
+                <a href="https://github.com/longthekong/marvel-page" target="_blank" class="projects_card_button">Zjistit více</a>
+              </div>
+            </div>
+
+            <div class="projects_card mix s_project">
+              <img src="assets/img/python.jpg" alt="p1" class="projects_card_img">
+
+              <div class="projects_card_text">
+                <span class="projects_card_category">Python</span>
+ 
+                <h5 class="projects_card_title">Malé projekty v Pythonu</h5>
+                <a href="https://github.com/longthekong/python-mini-projects" target="_blank" class="projects_card_button">Zjistit více</a>
+              </div>
+            </div>
+
+            <div class="projects_card mix web">
+              <img src="assets/img/coffee.jpg" alt="p1" class="projects_card_img">
+
+              <div class="projects_card_text">
+                <span class="projects_card_category">Vývoj webových stránek</span
+                  >
+                <h5 class="projects_card_title">Café stránka</h5>
+ 
+                <a href="https://github.com/longthekong/cafe_web_page" target="_blank" class="projects_card_button">Zjistit více</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Kontakt-->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">Kontakt</h4>
+
+          <span class="section_subtitle">Neváhejte se mi ozvat.</span>
+        </div>
+
+        <div class="d-flex contact_wrapper">
+          <form action="formular-email.php" method="post">
+            <input type="text" name="Name" placeholder="Jméno" required class="contact_input">
+            <input type="email" name="Email" placeholder="E-mail" required class="contact_input">
+            <input type="text" name="Subject" placeholder="Předmět" required class="contact_input">
+            <textarea name="Message" placeholder="Zpráva pro mě" rows="5" required class=" contact_input contact_textarea"></textarea>
+            <input type="submit" name="Submit" value="Poslat zprávu">
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!--Paticka-->
+  <footer class="footer section" id="footer">
+    <div class="container">
+      <div class="d-flex footer_wrapper">
+
+        <div class="footer_logo">
+          <img src="assets/img/logo.svg" alt="logo">
+        </div>
+
+        <div class="footer_contact">
+          <div class="footer_item">
+            <h5 class="footer_header">Sociální sítě</h5>
+
+            <div class="footer_text">
+              <i class="bi bi-arrow-right" class="arrow_icon"></i>
+
+              <div class="footer_socials">
+                <a href="https://discord.gg/NRPGRNR2" target="_blank"><i class="bi bi-discord"></i></a>
+                <a href="https://github.com/longthekong" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://twitter.com/LongNgu21294838?t=j7kk9tvmRIZpRziqDt6XMg&s=33" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/nguyen_long010/" target="_blank"><i class="bi bi-instagram"></i></a>
+              </div>
+
+            </div>
+          </div>
+          
+          <div class="footer_item">
+            <h5 class="footer_header">E-mail
+              <i class="bi bi-envelope-at-fill"></i>
+            </h5>
+
+            <div class="footer_text">
+              <i class="bi bi-arrow-right"></i>
+
+              <h5>
+                <a href="mailto:longnguyenthanh10@gmail.com">longnguyenthanh10@gmail.com</a>
+              </h5>
+
+            </div>
+
+          </div>
+          <div class="footer_item">
+            <h5 class="footer_header">Telefonní číslo
+              <i class="bi bi-telephone-fill"></i>
+            </h5>
+
+            <div class="footer_text">
+              <i class="bi bi-arrow-right" class="arrow_icon"></i>
+              <h5>
+                <a href="tel:+420776077503">+420 776 077 503</a>
+              </h5>
+
+            </div>
+          </div>
+
+          <div class="footer_item">
+            <h5 class="footer_header">Lokace
+              <i class="bi bi-geo-alt-fill"></i>
+            </h5>
+
+            <div class="footer_text">
+              <i class="bi bi-arrow-right" class="arrow_icon"></i>
+              <h5>
+                <a href="https://www.google.com/maps/place/České+Budějovice" target="_blank">České Budějovice, Česká republika</a>
+              </h5>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer_wrapper2">
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list_menu">
+            <li class="nav_item_menu"><a href="#about" class="nav_link_menu">O mně</a></li>
+
+            <li class="nav_item_menu"><a href="#hobbies" class="nav_link_menu">Zájmy</a></li>
+
+            <li class="nav_item_menu"><a href="#skills" class="nav_link_menu">Dovednosti</a></li>
+
+            <li class="nav_item_menu"><a href="#qualification" class="nav_link_menu">Kvallifikace</a></li>
+
+            <li class="nav_item_menu"><a href="#projects" class="nav_link_menu">Projekty</a></li>
+
+            <li class="nav_item_menu"><a href="#contact" class="nav_link_menu">Kontakt</a></li>
+
+          </ul>
+        </div>
+
+        <p class="footer_copyright">Copyright © 2023 • Nguyen Thanh Long</p>
+
+      </div>
+    </div>
+  </footer>
+  
+  <button id="scroll-to-top"><i class="bi bi-caret-up-square-fill"></i></button>
+
+    <!--Spusteni skriptu-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
